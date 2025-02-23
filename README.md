@@ -33,7 +33,7 @@ A lightweight, GUI-based task manager built with **CustomTkinter**. Easily add, 
 
 ### Download the Latest Release
 
-1. Go to the [Releases](https://github.com/yourusername/task-manager/releases) page.
+1. Go to the [Releases](https://github.com/IlanKog99/Task-Manager---A-Simple-To-Do-App/releases) page.
 2. Download `task-manager-v1.0.0.exe` from the latest release.
 3. Run the EXE file (no installation required).
 
