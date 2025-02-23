@@ -11,35 +11,35 @@ A lightweight, GUI-based task manager built with **CustomTkinter**. Easily add, 
 - **Custom user paths** for:
   - tasks.json storage location.
   - tasks.txt export file destination.
-- **Duplicate task detection**: Notify users about duplicate tasks and handle them appropriately.
+- **Duplicate task detection**: Warn users if a task already exists before adding it.
 
 ## Features
 
 - **Task Management**: Add, edit, delete, and mark tasks as completed.
-- **Priority Sorting**: Tasks sorted by urgency (High, Normal, Low).
+- **Priority Sorting**: Sort tasks by urgency (High, Normal, Low).
 - **Color-Coded System**:
   - 🔴 Overdue tasks
   - 🟠 Due within 30 days
   - 🔵 Due beyond 30 days
   - ⚪ No due date
   - ✅ Completed tasks
-- **Search & Filtering**: Find tasks quickly by description.
-- **Export Tasks**: Save incomplete tasks to a formatted text file.
-- **Persistent Storage**: Tasks stored in a JSON file in the app directory.
-- **Configurable settings**: Show/hide completed tasks, disable colors for a plain view.
-- **Modular code design**: Each class is in its own file for better maintainability.
+- **Search & Filtering**: Quickly find tasks by description.
+- **Export Tasks**: Save incomplete tasks to a text file.
+- **Persistent Storage**: Tasks are stored in a JSON file for future use.
+- **Configurable settings**: Toggle completed task visibility, disable colors, etc.
+- **Well-structured code**: Each major function is in its own file.
 
 ## Installation
 
 ### Download the Latest Release
 
-1. Go to the [Releases](https://github.com/IlanKog99/Task-Manager---A-Simple-To-Do-App/releases) page.
+1. Go to the [Releases](https://github.com/yourusername/task-manager/releases) page.
 2. Download `task-manager-v1.0.0.exe` from the latest release.
 3. Run the EXE file (no installation required).
 
 ### Notes on Included Files
-- The `tasks.json` and `tasks_export.txt` files are provided **only as examples** and are **not required** to use the program.
-- The `Task_Project_v1` folder contains the **source code** and example files.
+- The `tasks.json` and `tasks_export.txt` files are **just examples**—you don’t need them to use the program.
+- The `Task_Project_v1` folder contains **the source code and sample files**.
 
 ## Changelog - Task Manager V1.0.0
 
@@ -49,17 +49,17 @@ A lightweight, GUI-based task manager built with **CustomTkinter**. Easily add, 
 
 ### Bug Fixes & Improvements:
 
-- Fixed file path issues for JSON persistence when running as an EXE.
-- Improved task sorting logic based on color and priority.
-- Streamlined user interface for a smoother experience.
-- Enhanced error handling for task input validation.
+- Fixed issues with saving/loading JSON when running as an EXE.
+- Tweaked task sorting for better organization.
+- Smoothed out UI interactions for a better experience.
+- Improved error handling when adding tasks.
 
 ### Known Issues:
 
-- Slight startup delay in Onefile mode as the EXE unpacks resources.
-- Further enhancements and refinements planned for future updates.
+- The EXE takes a second to load due to Onefile mode unpacking.
+- More refinements are planned in upcoming updates.
 
 ## Feedback & Issues
 
-If you encounter any issues or have feature requests, please open an issue in the repository.
+Found a bug? Got a feature idea? Open an issue in the repository!
 
