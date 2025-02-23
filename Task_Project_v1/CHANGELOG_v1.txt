@@ -1,0 +1,61 @@
+Task Manager V1.0.0 - Changelog / Features
+--------------------------------------------
+
+Release Date: 2025-02-23
+
+New Features:
+-------------
+- GUI-based Task Manager built with CustomTkinter.
+- Add, edit, and delete tasks with a user-friendly interface.
+- Mark tasks as completed, or toggle between completed and ongoing.
+- Task sorting by due date and priority with a color-coded system:
+    • Red: Overdue tasks.
+    • Orange: Tasks due within 30 days.
+    • Blue: Tasks due beyond 30 days.
+    • White: Tasks with no due date.
+    • Green: Completed tasks.
+- Search tasks by description using a search bar.
+- Export incomplete tasks to a formatted text file.
+- Persistent task storage using a JSON file located in the same directory as the EXE.
+- Configurable settings via sidebar switches:
+    • Show/hide completed tasks.
+    • Disable colors for a plain view.
+- Modular code design with each class in its own file for better maintainability:
+    • main.py - Entry point.
+    • task.py - Task class.
+    • task_manager.py - Task management.
+    • task_gui.py - Graphical User Interface.
+    • helpers.py - Global constants and helper functions.
+
+Bug Fixes & Improvements:
+--------------------------
+- Fixed file path issues for JSON persistence when running as an EXE.
+- Improved task sorting logic based on color and priority.
+- Streamlined user interface for a smoother experience.
+- Enhanced error handling for task input validation.
+
+Known Issues:
+-------------
+- Slight startup delay in Onefile mode as the EXE unpacks resources.
+- Further enhancements and refinements planned for future updates.
+
+Future Plans:
+-------------
+- Settings file to store user preferences (colors, task visibility, etc.).
+- Dedicated Settings menu in the app for easier configuration.
+- Custom user paths for:
+    • tasks.json storage location.
+    • tasks.txt export file destination.
+
+
+
+
+
+
+
+
+
+
+
+
+

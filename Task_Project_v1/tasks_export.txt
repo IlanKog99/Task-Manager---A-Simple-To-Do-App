@@ -1,0 +1,12 @@
+High Priority Overdue          | Incomplete | 02/02/25   | High       | Created: 23/02/25 | Info: Remember to buy milk and eggs on the way home.
+Mid Priority Overdue           | Incomplete | 02/02/25   | Normal     | Created: 23/02/25 | Info: Need to call the dentist to schedule an appointment.
+Low Priority Overdue           | Incomplete | 02/02/25   | Low        | Created: 23/02/25 | Info: Pick up dry cleaning.
+High Priority Due Soon         | Incomplete | 28/02/25   | High       | Created: 23/02/25 | Info: Don't forget to RSVP for Sarah's birthday party.
+Mid Priority Due Soon          | Incomplete | 28/02/25   | Normal     | Created: 23/02/25 | Info: Research best deals on flights to London.
+Low Priority Due Soon          | Incomplete | 28/02/25   | Low        | Created: 23/02/25 | Info: Finish reading 'The Hitchhiker's Guide to the Galaxy'.
+High Priority Due Later        | Incomplete | 04/04/25   | High       | Created: 23/02/25 | Info: Plan a weekend getaway.
+Mid Priority Due Later         | Incomplete | 04/04/25   | Normal     | Created: 23/02/25 | Info: Start learning Spanish.
+Low Priority Due Later         | Incomplete | 04/04/25   | Low        | Created: 23/02/25 | Info: Organize the garage.
+High Priority No Due Date      | Incomplete | No due date | High       | Created: 23/02/25 | Info: Learn to play the guitar.
+Mid Priority No Due Date       | Incomplete | No due date | Normal     | Created: 23/02/25 | Info: Explore new hiking trails.
+Low Priority No Due Date       | Incomplete | No due date | Low        | Created: 23/02/25 | Info: Try a new recipe.
